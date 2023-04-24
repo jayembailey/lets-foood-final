@@ -84,6 +84,14 @@ const Navbar = () => {
                                 </div>
                             </button>
                         </div>
+                        <div className={`${protectedRoute()}`}>
+                        <button className='p-2 m-5 bg-yellow-400 justify-center rounded-lg'>
+                                <div >
+                                    <Link to='/update-profile' onClick={ clicked } className={`flex place-items-center mt-4 lg:inline-block lg:mt-0
+                                    text-green-800 hover:text-white mr-4`}>Update Profile</Link>
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </div>) : (<></>)}
         </nav>

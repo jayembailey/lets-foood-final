@@ -9,6 +9,7 @@ import SignUp from './components/SignUp'
 import SignOut from './components/SignOut'
 import './index.css'
 import Favorites from './components/Favorites'
+import UpdateProfile from './components/UpdateProfile'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
   {
     path: '/signin',
     element: <SignIn />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/update-profile',
+    element: <UpdateProfile />,
     errorElement: <ErrorPage />
   },
   {
