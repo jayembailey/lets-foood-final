@@ -7,4 +7,6 @@ Let's Food allows users to query the Spoonacular Recipe Database to find delicio
 Users then have the ability to save their favorites to their profile. The API returns a JSON data set that is parsed and
 displayed through individual React components written in Typescript. 
 
-Google Firebase and Firestore provide hosting for the application and it's data needs. Sign up today, and Let's Food!
+Google Firebase and Firestore provide hosting for the application and it's data needs. Styling created with Tailwind CSS.
+
+Sign up today, and Let's Food!
